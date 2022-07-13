@@ -1,0 +1,94 @@
+.navbar {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 2%;
+}
+
+/*I started off trying to change the last image this way but it wasn't the correct way to go .wood {max-width: 200px;} */
+
+.img-thumbnail {
+    height: 300px;
+    object-fit: cover;
+    margin: auto;
+    display: block;
+    border-color: black;
+}
+
+/*The images are all various diffent heights, particularly the flower image. I wanted to make them the same height. The easiest solution would be to use images that are all the same aspect and size but I am working with the images I initially selected. i discovered how to work best with the wonky sized images I had chosen */
+
+body {
+    background-color: darkgrey;
+    padding: 70px;
+}
+
+/*I initially added breaks under the nav bar in html to space the thumbnails but padding is better */
+
+button {
+    margin-bottom: 5%
+}
+
+/* adding margins to the text and buttons to space them out better */
+p {
+    margin-top: 5%;
+
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+
+}
+
+/* adding margins to the text and buttons to space them out better. I was also playing around with different fonts and colors and also discovered -webkit-text-stroke:, which didn't look good for this */
+
+td,
+th {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+button {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+button:hover {
+    opacity: 65%;
+}
+
+/*I used a bootstrap button to get used to bootstrap but added a little bit of customisation */
+
+.btn-primary {
+    max-width: 100px;
+}
+
+/*The submit button was scaling to the entire page and I couldn't figure out why so I added this property*/
+
+
+
+.images:hover {
+    transform: scaleX(-1);
+}
+
+
+
+
+/*just trying to do something interesting with the non-thumbnail images*/
+
+h1,
+h2 {
+    text-align: center;
+    padding: 3%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+
+.joe {
+    padding-top: 10px;
+   
+    
+}
+
+.col {
+    border: solid black 1px;
+    margin: 1%;
+    box-shadow: -5px 5px 10px;
+    border-radius: 10px;
+}
+
+/*adding borders and a drop shadow to the .col classes */
